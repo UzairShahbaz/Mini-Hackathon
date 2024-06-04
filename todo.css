@@ -1,0 +1,15 @@
+
+
+main{
+    flex:1 0 auto
+}
+
+.button button{
+    min-width: 45%;
+    margin: 5px !important;
+
+}
+
+.spacing{
+    margin-left: 20px !important;
+}

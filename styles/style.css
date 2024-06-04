@@ -1,0 +1,126 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+main{
+     flex: 1 0 auto !important; 
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+header{
+    
+    background-color:linear-gradient(62deg, #fafc8e 0%, #fd8fe1 100%) !important ;
+}
+
+#logout,#headpage{
+    display: none ;
+}
+
+
+body {
+   
+    background-color: antiquewhite;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    width: 350px;
+    /* border:1px solid red; */
+    background-color: #ffff;
+    height: 400px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    /* color: #ffff; */
+}
+
+.input input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    padding-left: 15px;
+    padding-right: 40px;
+    /* border: transparent; */
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center;
+    
+    font-weight: 500;
+    border: 1px solid #0073e6
+
+
+
+}
+
+.input i {
+    position: relative;
+    font-size: 20px;
+     /* right: 20px; */
+      left: 90%; 
+    bottom: 30px;  
+    /* transform: translate(80px);  */
+    color: #0073e6;
+
+}
+
+.rember-forget a {
+ 
+    text-decoration: none;
+    color: #0073e6;
+
+}
+
+.btnlogin {
+    text-align: center;
+    padding: 8px 135px;
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: center; */
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color:  #0073e6;
+    transition: all .4sec;
+    outline: none;
+    border: none;
+    color: #ffff;
+
+}
+
+.register p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.register a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 20px;
+}
